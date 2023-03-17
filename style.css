@@ -12,6 +12,11 @@
 }
 h1{
     color: rgb(41, 122, 123);
+    font-size: 100px;
+
+}
+h4{
+    font-size: 38px;
 }
 .estilos{
     border-style: solid;
@@ -20,4 +25,11 @@ h1{
     }
 h2{
     color: rgb(176, 163, 163);
+}
+img{
+    border-radius: 7px;
+}
+.letra{
+    color: white;
+    background-color: black;
 }
