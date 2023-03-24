@@ -1,4 +1,4 @@
-*{
+/*{
     box-sizing: border-box;
 }
 .row::after{
@@ -6,8 +6,11 @@
     height: 60px;
     clear: both;
 }
+*/
 .row{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     }
 .column-100{
     width: 100%;
@@ -21,25 +24,25 @@
     padding: 40px;
     }
 .column-50-1{
-    width: 50%;
-    height: 460px;
+    width: 44%;
+    height: 480px;
     background-color: rgb(248, 245, 251);
     padding: 40px;
     }
 .column-50-2{
-    width: 50%;
-    height: 460px;
+    width: 44%;
+    height: 480px;
     background-color: rgba(255, 234, 209, 0.486);
     padding: 40px;
     }
 .column-50-3{
-    width: 50%;
-    height: 460px;
+    width: 44.43%;
+    height: 480px;
     background-color: rgba(222, 247, 218, 0.412);
     padding: 40px;
     }
 .column-25{
-    width: 25%;
+    width: 19.65%;
     background-color: black;
     color: white;
     padding: 40px;
@@ -68,14 +71,15 @@ img{
 img{
     display: block;
     margin: auto;
-    margin-top: 32px;
-    width: 400px;
+    margin-top: 22px;
+    width: 350px;
   }
   p{
     font-size: 22px;
   }
 
   @media screen and (max-width: 600px){
+
     .column-50-1{
         width: 100%;
     }
@@ -84,5 +88,11 @@ img{
     }
     .column-50-3{
         width: 100%;
+    }
+    .column-100-1{
+        width: 100%;
+    }
+    .column-25{
+        width: 50%;
     }
   }
